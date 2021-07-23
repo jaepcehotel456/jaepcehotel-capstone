@@ -19,13 +19,13 @@ if (isset($_POST['submit'])) {
 		$mail->isSMTP();
 		$mail->Host = 'smtp.gmail.com';
 		$mail->SMTPAuth = true;
-		$mail->Username = 'jaepcehotels@gmail.com'; // Gmail address which you want to use as SMTP server
-		$mail->Password = 'qweasdqwdase132'; // Gmail address Password
+		$mail->Username = 'jaepcehotel657@gmail.com'; // Gmail address which you want to use as SMTP server
+		$mail->Password = 'Jaepcehotel657!'; // Gmail address Password
 		$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 		$mail->Port = '587';
 
-		$mail->setFrom('jaepcehotels@gmail.com'); // Gmail address which you use as SMTP Server
-		$mail->addAddress('jaepcehotels@gmail.com'); // Email address where you want to receive emails //
+		$mail->setFrom('jaepcehotel657@gmail.com'); // Gmail address which you use as SMTP Server
+		$mail->addAddress('jaepcehotel657@gmail.com'); // Email address where you want to receive emails //
 
 		$mail->isHTML(true);
 		$mail->Subject = 'Contact Form JAEPCE';

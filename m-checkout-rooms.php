@@ -47,7 +47,7 @@
                                         WHERE transaction.status = 'CheckIn' ORDER BY transaction.transaction_date DESC LIMIT $start_num,$limit_num";
                                         $result = $databaseconnection->query($pendingdata);
                                         if ($outputresult = mysqli_query($databaseconnection, $pendingdata)) {
-                                            if (mysqli_num_rows($outputresult) > 0) {       
+                                            if (mysqli_num_rows($outputresult) > 0) {      
                                     ?>
 
                                 <table class="table table-md table-hover table-center table-bordered order-table">

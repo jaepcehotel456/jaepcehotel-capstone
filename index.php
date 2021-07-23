@@ -237,6 +237,9 @@ switch ($page_id) {
     case 'manager-data-chart' :
             include('manager-data-chart.php');
             break;    
+    case 'manager-data-table' :
+            include('manager-data-table.php');
+            break; 
     case 'manager-listavailableroom' :
         include('manager-listavailableroom.php');
         break;    

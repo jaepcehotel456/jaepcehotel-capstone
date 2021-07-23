@@ -4,7 +4,7 @@
 
       if(isset($_POST['submit'])){
 
-    $mailTo= $_POST['email'];
+    $mailTo= 'jaepcehotel657@gmail.com';
     $body= $_POST['body'];
 
     $mail = new phpmailer\PHPMailer\PHPMailer();
@@ -16,14 +16,14 @@
     $mail->SMTPAuth = true;
 
     $mail->Username="jaepce";
-    $mail->Passowrd="Poplolo657!";
+    $mail->Password="Poplolo657!";
 
     $mail->SMTPSecure = "tls";
 
     $mail->Port = "2525";
 
-    $mail->From = "jaepcehotel657@gmail.com";
-    $mail->FromName="customer";
+    $mail->From = $_POST['email'];
+    $mail->FromName= $_POST['name'];
 
     $mail->addAddress($mailTo,$POST['name']);
 
