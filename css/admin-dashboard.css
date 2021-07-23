@@ -1,0 +1,21 @@
+    .rooms-section .card-body table tbody td a.c-bh-btn {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    padding:15px 20px;
+    background: #dfa974;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    }
+
+    .section-register .card-body table tbody td a.c-bh-btn {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    padding:15px 20px;
+    background: #dfa974;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    }
